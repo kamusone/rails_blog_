@@ -16,11 +16,15 @@ Install all the gems whith:
 * Database creation
 it has 5 paintings
 to create the tables start the command 
-# User     
-# Article  link to user & Category
-## Category    link to article
-### Commentaire link to article & user
-##Like        link to commentaire &user
+### User     
+### Article  
+link to user & Category
+### Category    
+link to article
+### Commentaire 
+link to article & user
+### Like 
+link to commentaire &user
 
 * app/modales creation 
 for a sigle link use:
@@ -41,4 +45,4 @@ after you join theme whit id link to create a connection with column
 For delete your db use 
 ### rails db:reset
 push your data into db 
-## rails db:seed
+### rails db:seed
