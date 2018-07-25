@@ -16,14 +16,14 @@ Install all the gems whith:
 * Database creation
 it has 5 paintings
 to create the tables start the command 
-### User     
-### Article  
+### 1.User     
+### 2.Article  
 link to user & Category
-### Category    
+### 3.Category    
 link to article
-### Commentaire 
+### 4.Commentaire 
 link to article & user
-### Like 
+### 5.Like 
 link to commentaire &user
 
 * app/modales creation 
