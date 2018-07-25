@@ -16,13 +16,23 @@ Install all the gems whith:
 * Database creation
 it has 5 paintings
 to create the tables start the command 
-## User
-## Article
-## Caterory
-## Commentaire
-## Like
+##User     
+##Article  link to user & Category
+##Category    link to article
+##Commentaire link to article & user
+##Like        link to commentaire &user
 
-* Database initialization
+* app/modales creation 
+for a sigle link use:
+#belongs_to :author
+for multiple links une:
+#has_many :books
+
+* crate your seed
+use gem 'faker' , you can choose your kind of db
+https://github.com/stympy/faker/blob/master/doc/book.md
+
+after you join theme whit id link to create a connection with column
 
 * How to run the test suite
 ### rails db:seed
